@@ -1,0 +1,419 @@
+.star-color{ color:orange; }
+.un-star-color{ color:#808080; }
+.page-height
+{
+min-height:600px;
+}
+div.index {
+	z-index:1;
+}
+/* important for page title- feedback,about,nbotifications..  and many more */
+.title_of_page
+{
+	color:yellowgreen;
+}
+.top-10px{
+	margin-top:10px;
+}
+/* --------------------------  */
+.dp-size
+{
+	height:150px;
+	width:150px;
+}
+.box
+{
+	color:;
+	height:150px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+}
+	
+.hvr-underline-from-left {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+position: relative;
+overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+content: "";
+position: absolute;
+z-index: -1;
+left: 0;
+right: 100%;
+bottom: 0;
+background: #FFC90E;
+height: 4px;
+-webkit-transition-property: right;
+transition-property: right;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+right: 0;
+}
+/* --------------------------  */
+.tw-mosaic
+{
+	color:white;
+	background-color:#45B39D;
+	border:1px solid #45B39D;
+}
+.tw-mosaic:hover
+{
+	color:#45B39D;
+	background-color:white;
+	font-weight:bold;
+	border:1px solid #45B39D;
+}
+.foot_dis
+{
+	opacity:0.5;
+}
+.mod-design
+{
+	background-color:#232323;
+}
+.bg_col1
+{
+background-color:#232323;
+}
+.bg_col2
+{
+background-color:#4D4D4D;
+}
+.color_nav
+{
+	/*background-color:#003358;*/
+	background-color:#4D4D4D;
+}
+.color_fotr
+{
+	background-color:#232323;
+}
+#buttons
+{
+	border-radius:0;
+	border:none;
+	background-color:#4D4D4D;
+	color:white;
+}
+#buttons:hover
+{
+	color:#FFC90E;
+}
+.but-float
+{
+	float:right;
+	margin-left:8px;
+	height:auto;
+}
+.btn-smit
+{
+	color:white;
+	background-color:#FFA500;
+	border:1px solid #FFA500;
+}
+.btn-smit:hover
+{
+	border:1px solid #FFA500;
+	background-color:white;
+	color:#FFA500;
+}
+/*   Button  */
+
+/*basic style for all buttons */
+.btn-tw
+{
+	font-weight:bold;
+	border-radius:5px;
+	transition:all 0.4s;
+	-o-transition:all 0.4s;
+	-ms-transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4zs;
+}
+
+.tw-notify
+{
+	color:white;
+	background-color:#9ACD32;
+	border: 1px solid #9ACD32;
+}
+.tw-notify:hover
+{
+	border: 1px solid #9ACD32;
+	color:#9ACD32;
+	background-color:white;
+}
+
+
+.tw-danger
+{
+	border: 1px solid #d9534f;
+	color:white;
+	background-color:#d9534f;
+}
+.tw-danger:hover
+{
+	border: 1px solid #d9534f;
+	color:#d9534f;
+	background-color:white;
+}
+.tw-link
+{
+	color:white;
+	background-color:#5cb85c;
+	border: 1px solid #5cb85c;
+	
+}
+.tw-link:hover
+{
+	border: 1px solid #5cb85c;
+	color:#5cb85c;
+	background-color:white;
+	font-weight:bold;
+}
+.tw-like
+{
+	color:white;
+	background-color:#337AB7;
+	border: 1px solid #337AB7;
+	
+}
+.tw-like:hover
+{
+	border: 1px solid #337AB7;
+	color:#337AB7;
+	background-color:white;
+	font-weight:bold;
+}
+.tw-rate
+{
+	color:white;
+	background-color:#FFA600;
+	border: 1px solid #FFA600;
+}
+.tw-rate:hover
+{
+	border: 1px solid #FFA600;
+	color:#FFA600;
+	background-color:white;
+	font-weight:bold;
+}
+/*   Button end */
+.site_name
+{
+	color:#FFC90E;
+	font-family:'Stencil';
+	font-size:32px;
+	line-heigth:20px;
+	height:55px;
+}
+#n_view
+{
+	background-color:;	/*#4D4D4D*/
+	width:100%;
+	opacity:0.8;
+	color:white;
+}
+#n_view:hover
+{
+	background-color:#4D4D4D;
+	opacity:1;
+}
+div.background
+{
+	width:100%;
+	height:314px;
+}
+div.transbox
+{
+	width:170px;
+	height:314px;
+	margin:0px 50px;
+}
+div.img
+{
+	margin:3px;
+	border:1px solid white;
+	height:auto;
+	width:110px;
+	float:left;
+	text-align:center;
+}
+div.img img
+{
+	display:inline;
+	margin:5px;
+	border:1px solid #0088D0;
+}
+div.img a:hover img
+{
+	border:1px solid #006EB6;
+}
+div.img:hover
+{
+	border:1px solid #006EB6;
+}
+div.desc
+{
+	text-align:center;
+	font-weight:normal;
+	width:105px;
+	margin:2px;
+}
+div.b_img
+{
+	margin:5px;
+	border:1px solid white;
+	height:auto;
+	width:195px;
+	float:left;
+	text-align:center;
+	
+}
+div.b_img img
+{
+	display:inline;
+	margin:10px;
+	border:1px solid #0088D0;
+}
+div.b_img a 
+{
+	text-decoration:none;
+}
+div.img a 
+{ text-decoration:none; }
+div.b_img a:hover img
+{
+	border:1px solid #006EB6;
+	
+}
+div.b_img:hover
+{
+	border:1px solid #006EB6;
+}
+div.b_desc
+{
+	text-align:center;
+	font-weight:normal;
+	width:200px;
+	margin:2px;
+}
+.profile_set_pic
+{
+	min-width:186px;
+	height:200px;
+	max-width:260px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.profile_set_banner
+{
+	min-width:186px;
+	min-height:200px;
+}
+.file_upld
+{
+	display:block;
+	background-color:#F3D5D5;
+	border:1px solid darkgray;
+	height:40px;
+	margin-top:5px;
+	overflow:hidden;
+}
+.upld_btn
+{
+	margin-top:8px;
+	margin-left:3px;
+	float:left;
+}
+.l_banner
+{
+	float:left;
+	text-align:left;
+	width:159px;
+}
+.r_banner
+{
+	float:left;
+	width:350px;
+}
+.bnr_chs
+{
+	height:100px;
+	border:1px solid darkgray;
+}
+
+.batch_display
+{
+background-color:white;
+height:60px;
+width:100%;
+box-shadow:3px 3px 5px black;
+}
+.mar-top
+{
+	margin-top:5px;
+}
+
+#welcome {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #45B39D;
+    color:#FFFFFF;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+.show {
+    visibility: visible !important;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+.p_box
+{
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	 display: block;
+	margin:8px;
+	float:left;
+	border-radius:3px;
+}
+
