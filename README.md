@@ -2,7 +2,7 @@
 
 ## Screenshots :
 
-![tutorPile](https://github.com/iuashrafi/pos-mern/blob/main/screenshots/tutorPile.png)
+![tutorPile](https://github.com/iuashrafi/tutorpile-3/blob/main/screenshots/tutorPile.png)
 
 ## About the project
 
